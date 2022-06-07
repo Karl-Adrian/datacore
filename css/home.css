@@ -47,3 +47,20 @@
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
+.background {
+  background-image:url('/images/landing\ page\ 2.jpg');
+}
+
+.open-button {
+
+}
+
+.logo {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 0em;
+  color: #ffffcc;
+  text-shadow: 0 0 5px #fff, 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(250, 0, 146), 0 0 30px rgb(250, 0, 146),
+    0 0 40px rgb(250, 0, 146), 0 0 55px rgb(250, 0, 146), 0 0 70px rgb(250, 0, 146);
+}
