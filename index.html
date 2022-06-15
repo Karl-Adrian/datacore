@@ -5,32 +5,62 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/css/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <script src="https://kit.fontawesome.com/5a4f0e502c.js" crossorigin="anonymous"></script>
   <title>Document</title>
 </head>
+
 <body>
-  
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+      >&times;</a
+    >
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <div class="bars">
+    <span onclick="openNav()">
+      <i class="fa fa-bars" class="checkbtn"></i
+    ></span>
+  </div>
+  <div id="main"></div>
+
+
 <header id="showcase">
+  <div class="welcome">
   <h1>Welcome To Datacore</h1>
   <p>For all your security consultancy needs</p>
+  </div>
   <a href="home.html" class="button">Welcome</a>
 </header>
-<section id="section-a">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit minus impedit maxime, quae soluta quis cumque perferendis! Doloribus quaerat, placeat iste facere, aspernatur ex cum veritatis laudantium, officia, non porro exercitationem incidunt quis dolore? Officia ex accusamus expedita optio, voluptatem minus? In maiores omnis aperiam earum ab molestiae beatae laborum blanditiis incidunt, delectus dolor, id voluptates optio aspernatur aliquam saepe atque labore? Tempore reprehenderit ab ipsam perspiciatis ut, provident perferendis sapiente in numquam blanditiis, enim, illo error nulla incidunt quos quidem ratione repellat ipsa molestias veritatis? Mollitia, fugit dolore commodi porro repudiandae atque, eos, ipsum quam culpa fuga deleniti quae.</p>
-</section>
-<section id="section-b">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit minus impedit maxime, quae soluta quis cumque perferendis! Doloribus quaerat, placeat iste facere, aspernatur ex cum veritatis laudantium, officia, non porro exercitationem incidunt quis dolore? Officia ex accusamus expedita optio, voluptatem minus? In maiores omnis aperiam earum ab molestiae beatae laborum blanditiis incidunt, delectus dolor, id voluptates optio aspernatur aliquam saepe atque labore? Tempore reprehenderit ab ipsam perspiciatis ut, provident perferendis sapiente in numquam blanditiis, enim, illo error nulla incidunt quos quidem ratione repellat ipsa molestias veritatis? Mollitia, fugit dolore commodi porro repudiandae atque, eos, ipsum quam culpa fuga deleniti quae.</p>
-</section>
-<section id="section-c">
-  <div class="box-1">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa dolorum est, molestias dolores quis sunt nobis temporibus veritatis libero odio!
-  </div>
-  <div class="box-2">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa dolorum est, molestias dolores quis sunt nobis temporibus veritatis libero odio!
-  </div>
-  <div class="box-3">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa dolorum est, molestias dolores quis sunt nobis temporibus veritatis libero odio!
-  </div>
-</section>
+<div class="background">
+</div>
+<div class="section-boxes">
+  <section id="section-a">
+    <p>In our</p>
+  </section>
+  <section id="section-b">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit minus impedit maxime, quae soluta quis cumque perferendis! Doloribus quaerat, placeat iste facere, aspernatur ex cum veritatis laudantium, officia, non porro exercitationem incidunt quis dolore? Officia ex accusamus expedita optio, voluptatem minus? In maiores omnis aperiam earum ab molestiae beatae laborum blanditiis incidunt, delectus dolor, id voluptates optio aspernatur aliquam saepe atque labore? Tempore reprehenderit ab ipsam perspiciatis ut, provident perferendis sapiente in numquam blanditiis, enim, illo error nulla incidunt quos quidem ratione repellat ipsa molestias veritatis? Mollitia, fugit dolore commodi porro repudiandae atque, eos, ipsum quam culpa fuga deleniti quae.</p>
+  </section>
+  <section id="section-c">
+    <div class="box-1">
+      <h1>Response</h1>
+      <p>here we'll have response security companies</p>
+      <a href="response.html" class="button">see more..</a>
+    </div>
+    <div class="box-2">
+    <h1>Preventative</h1>
+    <p>here we'll have preventative security companies</p>
+    <a href="prevent.html" class="button">see more...</a>
+    </div>
+    <div class="box-3">
+      <h1>Mitigative</h1>
+      <p>here we'll have mitigative security companies</p>
+      <a href="mitigate.html" class="button">See More...</a>
+    </div>
+  </section>
+</div>
+<script src="/js/home.js"></script>
 
 </body>
 </html>
