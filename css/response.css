@@ -1,0 +1,86 @@
+/* Banner Image */
+.banner_image{
+	background-image:url('/images/2aQHZVp5_4x.jpg'); 
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner_content{
+	text-align: center;
+	color: #fff;
+}
+
+.banner_content h1{
+	text-transform: uppercase;
+	line-height: 38px;
+	margin-bottom: 15px;
+}
+
+.banner_content h1 span{
+	color: #fb2274;
+}
+
+/*flammatech*/
+.flam-logo {
+	text-align: left;
+}
+
+.flammatech {
+	background-size:20% 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color:#1E0D66;
+	padding: 10px 20px 10px 15px;
+	margin-bottom: 10px;
+}
+
+
+
+.flammatech p{
+	color:white;
+	font-size:18px;
+}
+/*flammatech end*/
+
+/*Intergrated Biometrics*/
+.inter-logo {
+	text-align:left;
+	max-width: auto;
+	height: auto;
+
+	
+}
+.inter{
+	background-size:20% 100%;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-color:white;
+	padding: 10px 20px 10px 200px;
+	margin-bottom: 20px;
+}
+
+.inter{
+color:black;
+font-size:18px;
+}
+/*Intergrated biometrics end*/
+
+
+
+/*paulson*/
+.paulson{
+background-color:#031752;
+padding: 10px 20px 10px 200px;
+margin-bottom: 20px;
+}
+
+.paulson{
+color:white;
+font-size:18px;
+}
+/*paulson end*/
+
